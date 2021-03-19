@@ -1,0 +1,43 @@
+devices:
+  RT1:
+    alias: RTR1
+    connections:
+      cli:
+        ip: 172.16.2.100
+        protocol: ssh
+    os: iosxe
+    platform: iosxe
+    type: iosxe
+  RT2:
+    alias: RTR2
+    connections:
+      cli:
+        ip: 172.16.2.101
+        protocol: ssh
+    os: iosxe
+    platform: iosxe
+    type: iosxe
+  RT3:
+    alias: RTR3
+    connections:
+      cli:
+        ip: 172.16.2.102
+        protocol: ssh
+    os: iosxe
+    platform: iosxe
+    type: iosxe
+  RT4:
+    alias: RTR4
+    connections:
+      cli:
+        ip: 172.16.2.103
+        protocol: ssh
+    os: iosxe
+    platform: iosxe
+    type: iosxe
+testbed:
+  credentials:
+    default:
+      password: cisco
+      username: cisco
+topology: {}

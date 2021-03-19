@@ -1,0 +1,3 @@
+.env
+.pytest_cache
+pyats_nb_config.cfg
